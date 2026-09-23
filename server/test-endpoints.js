@@ -18,7 +18,7 @@ async function runTests() {
   const allowedOrigins = [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://task-flow-manager-ten.vercel.app",
+    "https://ayets-task-flow-manager.vercel.app/",
   ];
 
   app.use(

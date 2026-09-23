@@ -8,11 +8,11 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/tasks": {
-        target: "http://localhost:5000",
+        target: "https://ayets-taskflow-manager.onrender.com",
         changeOrigin: true,
       },
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://ayets-taskflow-manager.onrender.com",
         changeOrigin: true,
       },
     },

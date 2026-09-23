@@ -15,7 +15,7 @@ const configuredOrigin = (process.env.CLIENT_ORIGIN || "").trim().replace(/\/+$/
 
 const allowedOrigins = [
   configuredOrigin,
-  "https://task-flow-manager-ten.vercel.app",
+  "https://ayets-task-flow-manager.vercel.app/",
   "http://localhost:5173",
   "http://localhost:3000",
   "http://localhost:5000",
